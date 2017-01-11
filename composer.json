@@ -1,0 +1,38 @@
+{
+    "name": "kkkio2/yii2-amaze",
+    "description": "The AmazeUI extension for the Yii framework",
+    "keywords": ["yii2", "amaze"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/kkkio2/yii2-amaze/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/kkkio2/yii2-amaze"
+    },
+    "authors": [
+        {
+            "name": "",
+            "email": "kkkio2@163.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.6",
+        "bower-asset/amazeui": "2.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\amaze\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
